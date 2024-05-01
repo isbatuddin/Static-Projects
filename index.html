@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration Form</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container" id= "container1">
+     <h1>Registration Form</h1> 
+     <p>Please fill out this form with required information</p>
+     <form>
+      <label for="first-name">Enter Your First Name</label>
+      <input type="text" id="first-name" placeholder="First Name" required><br><br>
+      
+      <label for="last-name">Enter Your last Name</label>
+      <input type="text" id="last-name" placeholder="Last Name" required><br><br>
+      
+      <label for="email">Enter your Email</label>
+      <input type="email" id="email" placeholder="Email" required><br><br>
+      
+      <label for="password">Create a New Password</label>
+      <input type="password" id="password" placeholder="Password" required><br><br>
+       <hr><br>
+     
+   </div>    
+       
+   <div class="container" id= "container2">
+      
+      <label id="label2">Account type(required)</label><br>
+      <label for="personal" id="label2">Personal</label>
+      <input type="radio" id="personal" name="account-type" value="personal" required>
+      
+      <label for="business" id="label2">Business</label>
+      <input type="radio" id="business" name="account-type" value="business" required><br><br>
+      
+      <button type="submit">Submit</button>
+     </form>
+   </div>
+</body>
+</html>
